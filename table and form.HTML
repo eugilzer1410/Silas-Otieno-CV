@@ -1,0 +1,257 @@
+<html>
+    <title>bit lab exersise</title>
+    <body>
+        <table border="2" cellspacing="0" cellpadding="6" widith="100">
+            <tr>
+                <th colspan="4"><i>My tech stork pick</i></th>
+            </tr>
+            <tr>
+                <th bgcolor="blue">Name</th>
+                <th bgcolor="green">Symbol</th>
+                <th bgcolor="blue">Images</th>
+                <th bgcolor="green">Contact</th>
+            </tr>
+            <tr>
+              <td>Microsoft</td> 
+              <td>MSFT</td> 
+              <td><img src="operating.jpg" width="130" height="130"></td>
+            
+            <td>
+                <ul>
+               <li> Email: microsofti@mc.se</li>
+              <li>&copy;2013 Microsoft corparation</li>
+                </ul>
+            
+                 <ol type="i">
+                <li> Email: Microsofti@mc.se</li>
+               <li> &copy;2026<u>Microsoft</u> Corptation</li>
+                </ol>
+            </td>
+            </tr>
+            <tr>
+                <td>Cisco Systems</td>
+                <td>CSCO</td>
+                <td><img src="falu.jpeg" width="130" height="130"></td>
+                <td>
+                    <b>switch</b><br>
+<a href="#">www.uk.hardware.info</a>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="4">&copy;BIT 202</th>
+            </tr>
+
+        </table>
+        <br><br>
+
+
+    <style>
+        body {
+            font-family: Arial;
+            font-size: 12px;
+        }
+
+        .container {
+            width: 410px;
+            margin: 30px auto;
+            border: 1px solid #aaa;
+            padding: 20px;
+        }
+
+        h3 {
+            text-align: center;
+            color: #1680b5;
+            margin: 0;
+        }
+
+        .step {
+            text-align: center;
+            color: #1680b5;
+            font-weight: bold;
+        }
+
+        fieldset {
+            width: 360px;
+            margin: auto;
+            border: 1px solid #ccc;
+        }
+
+        legend {
+            text-align: center;
+        }
+
+        table {
+            margin: auto;
+        }
+
+        td {
+            padding: 3px;
+        }
+
+        input, select {
+            width: 125px;
+            height: 20px;
+            box-sizing: border-box;
+        }
+
+        .radio {
+            width: auto;
+            height: auto;
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        button {
+            background: #168ac0;
+            color: white;
+            border: none;
+            padding: 5px 12px;
+        }
+
+        .footer {
+            background: #087eb5;
+            color: white;
+            text-align: center;
+            padding: 6px;
+            margin-top: 10px;
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="step">Step 1 of 5</div>
+    <div style="text-align:center;">Personal Information</div>
+
+    <fieldset>
+        <table>
+            <tr>
+                <td>Sur Name</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>First Name</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Other Names</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input class="radio" type="radio" name="gender"> Male
+                    <input class="radio" type="radio" name="gender"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td>Marital Status</td>
+                <td>
+                    <select>
+                        <option>Select - Status</option>
+                        <option>Single</option>
+                        <option>Married</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date"></td>
+            </tr>
+
+            <tr>
+                <td>Place of Birth</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Mothers Name</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>fathers Name</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>number of Dependants</td>
+                <td>
+                    <select>
+                        <option>Select - No of Dependants</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4+</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>level of Education</td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+
+        <fieldset>
+            <legend>Security Information</legend>
+
+            <table>
+                <tr>
+                    <td>UserName</td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password"></td>
+                </tr>
+
+                <tr>
+                    <td>Re-type Password</td>
+                    <td><input type="password"></td>
+                </tr>
+
+                <tr>
+                    <td>Security Question</td>
+                    <td>
+                        <select>
+                            <option>Select - Question</option>
+                            <option>What is your favourite colour?</option>
+                            <option>What is your pet's name?</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Answer</td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <div class="buttons">
+            <button>Previous</button>
+            <button>Next</button>
+        </div>
+
+    </fieldset>
+
+    <div class="footer">
+        Copyright © 2011 all rights reserved
+    </div>
+
+</div>
+    </body>
+</html>
